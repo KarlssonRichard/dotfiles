@@ -1,3 +1,3 @@
 oh-my-zsh theme: 'minimal'
 .zshrc: alias vim='nvim'
-keyboard shortcut: dmenu_run -nb '#553333' -nf '#cc6666' -sf '#dddddd' -sb '#cc4433'
+keyboard shortcut: dmenu_run -nb '#553333' -nf '#cc6666' -sf '#ffcccc' -sb '#cc4433'
