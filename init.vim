@@ -13,8 +13,9 @@ set nowritebackup
 set noswapfile
 set termguicolors
 set background=dark
-colorscheme solarized
+"colorscheme dracula
 
 " neovim path - ~/.config/nvim/init.vim
 " xsel - for copy/paste with x11
 " https://github.com/frankier/neovim-colors-solarized-truecolor-only
+" https://github.com/dracula/vim
