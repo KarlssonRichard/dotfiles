@@ -8,6 +8,7 @@ set tabstop=4
 set shiftwidth=4
 set backspace=2
 
+set laststatus=0
 set nobackup
 set nowritebackup
 set noswapfile
