@@ -14,10 +14,16 @@ set nowritebackup
 set noswapfile
 set termguicolors
 set background=dark
-set term=screen-256color
-colorscheme lucius
+let $NVIM_TUI_ENABLE_TRUE_COLOR=1
+colorscheme one
+
+call plug#begin()
+Plug 'rakr/vim-one'
+call plug#end()
+
+" Plugin Manager   :PlugInstall
+curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
 " neovim path - ~/.config/nvim/init.vim
 " path to colorschemes /home/{USER}/.config/nvim/colors
-" xsel - for copy/paste with x11
-" https://github.com/jonathanfilip/vim-lucius
