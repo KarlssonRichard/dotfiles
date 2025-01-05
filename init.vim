@@ -46,12 +46,12 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 Plug 'jiangmiao/auto-pairs'                 " This will auto close ( [ {
 Plug 'ojroques/nvim-hardline'               " Statusline
 Plug 'NickyTope/yanks.nvim'                 " Yank history
-Plug 'p00f/alabaster.nvim'		              " Colorscheme
+Plug 'p00f/alabaster.nvim'                  " Colorscheme
 Plug 'ibhagwan/fzf-lua', {'branch': 'main'} " Fuzzy search
-Plug 'williamboman/mason.nvim'	  	        " Package manager for LSP 
+Plug 'williamboman/mason.nvim'              " Package manager for LSP 
 Plug 'williamboman/mason-lspconfig.nvim'    " Bridge between mason and lspconfig
-Plug 'neovim/nvim-lspconfig'		            " Config LSP
-Plug 'stevearc/aerial.nvim'		              " Outline window for quick navigation
+Plug 'neovim/nvim-lspconfig'                " Config LSP
+Plug 'stevearc/aerial.nvim'                 " Outline window for quick navigation
 
 call plug#end()
 
