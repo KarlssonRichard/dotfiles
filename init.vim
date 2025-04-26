@@ -14,6 +14,7 @@ set nowritebackup
 set noswapfile
 set nowrap
 set background=dark
+set clipboard+=unnamedplus
 set laststatus=2
 let $NVIM_TUI_ENABLE_TRUE_COLOR=1
 
